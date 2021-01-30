@@ -1,6 +1,4 @@
 //Copied by The Gaugfather
-
-
 // thanks to https://www.electronics-lab.com/project/arduino-breathalyzer-using-mq3-gas-sensor-oled-display/
 
 
