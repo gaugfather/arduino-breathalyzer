@@ -82,11 +82,11 @@ void printAlcoholLevel(int value)
   display.setTextColor(WHITE);
   display.setCursor(42,15);
 
-  String step1 = " 0/3 -  Sober!";
+  String step1 = " 1/3 -  Sober!";
   //String step2 = " +1 Cheers!";
-  String step3 = " 1/3 - Cheers!";
-  String step4 = " 2/3 - Naked!";
-  String step5 = " 3/3 - Puking!";
+  String step2 = " 2/3 - Cheers!";
+  //String step4 = " 2/3 - Naked!";
+  String step3 = " 3/3 - Drunk!";
   
   if(value<210)
   {
@@ -97,17 +97,17 @@ void printAlcoholLevel(int value)
   //    display.println(step2);
  // }
   //if (value>=280 && value<350)
-  if (value >=215 && value <350)
+  if (value >=210 && value <500)
   {
-      display.println(step3);
+      display.println(step2);
   }
-  if (value>=350 && value <450)
+  //if (value>=350 && value <550)
+  //{
+      //display.println(step4);
+  //}
+  if(value>=500)
   {
-      display.println(step4);
-  }
-  if(value>450)
-  {
-     display.println(step5);
+     display.println(step3);
   }
  }
  
