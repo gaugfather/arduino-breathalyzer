@@ -9,7 +9,7 @@
 
 
 #define OLED_RESET 4
-int TIME_UNTIL_WARMUP = 5; //900;
+int TIME_UNTIL_WARMUP = 900; //5;
 unsigned long time;
 
 
@@ -105,7 +105,7 @@ void printAlcoholLevel(int value)
   //{
       //display.println(step4);
   //}
-  if(value>=500)
+  if(value>=525)
   {
      display.println(step3);
   }
