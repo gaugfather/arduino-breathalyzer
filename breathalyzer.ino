@@ -88,7 +88,7 @@ void printAlcoholLevel(int value)
   //String step4 = " 2/3 - Naked!";
   String step3 = " 3/3 - Drunk!";
   
-  if(value<210)
+  if(value<280)
   {
       display.println(step1);
   }
@@ -97,7 +97,7 @@ void printAlcoholLevel(int value)
   //    display.println(step2);
  // }
   //if (value>=280 && value<350)
-  if (value >=210 && value <525)
+  if (value >=280 && value <525)
   {
       display.println(step2);
   }
